@@ -1,0 +1,31 @@
+.cards-users{
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 300px;
+  justify-content: space-between;
+ }
+
+.cards-users-infos{
+	flex-grow: 1;
+	padding-left: 15px;
+}
+
+
+.cards-users-infos h3{
+	padding-top: none;
+}
+
+.cards-users-infos p{
+	padding-top: none;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

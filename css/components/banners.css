@@ -1,0 +1,20 @@
+.banners{
+	height: 100vh;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	text-align: center;
+ 	background: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 40%), url(../../images/students.jpg);
+ 	background-size: cover;
+}
+
+.banners-content h1{
+	color: white;
+}
+
+.banners-content h2{
+	font-family: "Montserrat", "sans-serif";
+	font-weight: lighter;
+	color: white;
+	padding-bottom: 30px;
+}
